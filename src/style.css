@@ -1,0 +1,133 @@
+.caixa-promocao{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #dbcaca5e;
+	display: flex;
+}
+
+.peca-promocao{
+	background: green;
+	cursor: pointer;
+}
+
+.caixa-pecas{	
+	padding: 5px;
+	display: grid;
+	background: #2a2a21;
+	margin: auto;
+	grid-template-columns: auto auto;
+	grid-gap: 5px;
+}
+
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	background: grey;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+.black{
+	background: #789555;
+}
+
+.white{
+	background: #ecefd2;
+}
+
+.bloco{
+	display: flex;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.peca-selecionada{
+	background-color: #ecefd27d;
+}
+
+.tabuleiro{
+	position: relative;
+	display:flex;
+	flex-wrap:wrap;
+	width: 560px;
+}
+
+.pawn-white{
+	background-image: url(./images/pawnwhite.png);
+}
+
+.queen-white{
+	background-image: url(./images/queenwhite.png);
+}
+
+.king-white{
+	background-image: url(./images/kingwhite.png);
+}
+
+.horse-white{
+	background-image: url(./images/horsewhite.png);
+}
+
+.bishop-white{
+	background-image: url(./images/bishopwhite.png);
+}
+
+.tower-white{
+	background-image: url(./images/towerwhite.png);
+}
+
+.pawn-black{
+	background-image: url(./images/pawnblack.png);
+}
+
+.queen-black{
+	background-image: url(./images/queenblack.png);
+}
+
+.king-black{
+	background-image: url(./images/kingblack.png);
+}
+
+.horse-black{
+	background-image: url(./images/horseblack.png);
+}
+
+.bishop-black{
+	background-image: url(./images/bishopblack.png);
+}
+
+.tower-black{
+	background-image: url(./images/towerblack.png);
+}
+
+.jogadas-possiveis{
+	background-image: url(./images/jogadasPossiveis.png);
+	background-position: center;
+}
+
+.capturar-peca{
+	background-color: #ff0000c7;
+}
+
+.passante{
+	background: brown;
+}
+
+.check{
+	background-color: #ff0000c7;
+}
+
+.troca-rei-torre{
+	background-color: yellow;
+}
